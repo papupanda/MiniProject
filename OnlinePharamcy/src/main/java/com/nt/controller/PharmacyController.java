@@ -8,7 +8,7 @@ public class PharmacyController {
 	
 	@GetMapping("/first")
 	public String First() {
-		return "Hello";
+		return "First";
 	}
 	
 
