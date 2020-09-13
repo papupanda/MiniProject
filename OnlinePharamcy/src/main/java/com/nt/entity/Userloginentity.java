@@ -13,7 +13,7 @@ import lombok.Data;
 public class Userloginentity {
 	@Id
 	@GeneratedValue
-	private Integer Uid;
+	private Integer Userid;
 	private String name;
 	private String password;
 

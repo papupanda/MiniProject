@@ -3,7 +3,7 @@
     <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
     
       <h1>Admin Login Page</h1>
-<form:form method="post" action="#" modelAttribute="admin">
+<form:form method="post" action="login" modelAttribute="admin">
 <table>
          <tr>    
           <td>Username : </td>   
@@ -19,7 +19,7 @@
           <input type="reset" value="reset" /></td>    
          </tr>
          <tr><td><a href="#">ForgotPassword</a>&nbsp;&nbsp;
-                 <a href="#">New Registration</a>
+                 <a href="FirstRegistration">New Registration</a>
          </td>
          </tr>  
          <tr></tr>
