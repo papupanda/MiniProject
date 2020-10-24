@@ -15,12 +15,13 @@ public class OnlinePharamacyServiceImpl implements OnlinePharamcyService {
 	
 	@Override
 	public String Login(AdminLogin al) {
-		Adminloginentity ale=new Adminloginentity();
+		Adminloginentity ale1=new Adminloginentity();
+                Adminloginentity ale=new Adminloginentity();
 		BeanUtils.copyProperties(al, ale);
 		String name=ale.getName();
 		String findname = ar.findByname(name);
 		if(findname!=null) {
-			return "Login Sucess";
+			return "Login Sucess Ok Boss";
 		}
 		else {
 			return "Login Failed";
